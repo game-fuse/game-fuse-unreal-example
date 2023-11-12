@@ -5,17 +5,25 @@ This Unreal Engine project is a seamless integration of the GameFuse online subs
 
 
 ## Getting Started
- - Clone the Repository: Start by cloning this repository to your local machine ([How to clone a Git LFS project](https://www.youtube.com/watch?v=AuFsGlY3wvA&t=118s)).
+ - The first step of integrating GameFuse with your project, is to make an account in [Gamefuse.co](https://gamefuse.co/)
+ - Clone the project ([How to clone a Git LFS project](https://www.youtube.com/watch?v=AuFsGlY3wvA&t=118s)).
 ```sh
 git clone https://github.com/yourusername/YourGameProject.git
 ```
  - [Download](https://github.com/game-fuse/game-fuse-cpp/releases) the Plugin and unzip it or you can [Download it from the the Unreal Store](), then add to this project in the Plugins folder and Enable it inside the Engine.
+ - in Content/GUIApplication/Blueprints > BP_GUIGameMode, input your GameID and GameToken within the 'Set Up Game' node. 
+- Within your Game Fuse account, include some cars as store items. Then, add these cars along with their corresponding IDs to the DefaultPawnClass map variable located in Content/SampleGame/Blueprints > BP_PlayerController.
 
+![cars](https://res.cloudinary.com/dgwqhqk47/image/upload/v1699827059/static/CarUnrealExampleScreenshot.png)
 
+ - Muscle ![cars](https://res.cloudinary.com/dgwqhqk47/image/upload/v1699827059/static/CarUnrealExampleBlack.png)
 
+ - Sport 1 ![cars](https://res.cloudinary.com/dgwqhqk47/image/upload/v1699827059/static/CarUnrealExampleYellow.png)
 
+ - Sport 2 ![cars](https://res.cloudinary.com/dgwqhqk47/image/upload/v1699827059/static/CarUnrealExampleREd.png)
 
-
+## License
 
  *  Copyright (c) 2023-11-06 GameFuse
  *  All rights reserved.
+ 
