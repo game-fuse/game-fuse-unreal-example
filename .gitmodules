@@ -1,0 +1,4 @@
+[submodule "Plugins/game-fuse-cpp"]
+	path = Plugins/game-fuse-cpp
+	url = https://github.com/game-fuse/game-fuse-cpp.git
+	branch = v3

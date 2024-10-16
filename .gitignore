@@ -47,14 +47,17 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*
+Plugins/**
 #Plugins/*/Binaries/*
 
-#my Samples 
+#my Samples W
 Samples/*
 
 # Builds
 Build/*
+
+# Rider files
+.idea/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
