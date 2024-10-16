@@ -28,7 +28,8 @@
 		},
 		{
 			"Name": "GameFuse",
-			"Enabled": true
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6214da75e30c4ba5a713596d735589d8"
 		}
 	]
 }
