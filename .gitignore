@@ -47,7 +47,10 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
+
+# Plugins
 Plugins/**
+Plugins/game-fuse-cpp
 #Plugins/*/Binaries/*
 
 #my Samples W
