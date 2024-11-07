@@ -58,6 +58,7 @@ Samples/*
 
 # Builds
 Build/*
+.uet/*
 
 # Rider files
 .idea/*
@@ -82,3 +83,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
