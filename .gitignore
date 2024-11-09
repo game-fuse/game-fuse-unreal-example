@@ -62,6 +62,7 @@ Build/*
 
 # Rider files
 .idea/*
+*.sln.*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -83,4 +84,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
 
