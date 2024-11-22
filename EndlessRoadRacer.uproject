@@ -1,35 +1,35 @@
 {
-  "FileVersion": 3,
-  "EngineAssociation": "5.4",
-  "Category": "",
-  "Description": "",
-  "Modules": [
-    {
-      "Name": "EndlessRoadRacer",
-      "Type": "Runtime",
-      "LoadingPhase": "Default"
-    }
-  ],
-  "Plugins": [
-    {
-      "Name": "ModelingToolsEditorMode",
-      "Enabled": true,
-      "TargetAllowList": [
-        "Editor"
-      ]
-    },
-    {
-      "Name": "ChaosVehiclesPlugin",
-      "Enabled": true
-    },
-    {
-      "Name": "JsonBlueprintUtilities",
-      "Enabled": true
-    },
-    {
-      "Name": "GameFuse",
-      "Enabled": true
-    }
-  ]
-
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "EndlessRoadRacer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "ChaosVehiclesPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "JsonBlueprintUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFuse",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6214da75e30c4ba5a713596d735589d8"
+		}
+	]
 }
