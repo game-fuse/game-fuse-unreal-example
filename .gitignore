@@ -47,14 +47,22 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/*
+
+# Plugins
+Plugins/**
+Plugins/game-fuse-cpp
 #Plugins/*/Binaries/*
 
-#my Samples 
+#my Samples W
 Samples/*
 
 # Builds
 Build/*
+.uet/*
+
+# Rider files
+.idea/*
+*.sln.*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -76,3 +84,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+.idea/*
+.uet/*
+
