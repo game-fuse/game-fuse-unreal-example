@@ -10,7 +10,7 @@ This Unreal Engine project is a seamless integration of the GameFuse online subs
 ```sh
 git clone https://github.com/game-fuse/game-fuse-unreal-example
 ```
- - [Download](https://github.com/game-fuse/game-fuse-cpp/releases/tag/1.0.3) the Plugin (1.0.3) and unzip it or you can [Download it from the the Unreal Store](https://www.unrealengine.com/marketplace/en-US/product/gamefuse), then add to this project in the Plugins folder and Enable it inside the Engine.
+ - [Download the plugin from Fab](https://www.unrealengine.com/marketplace/en-US/product/gamefuse), and install to your engine version via the Epic Games Launcher.
  - in Content/GUIApplication/Blueprints > BP_GUIGameMode, input your GameID and GameToken within the 'Set Up Game' node. 
 - Within your Game Fuse account, include some cars as store items. Then, add these cars along with their corresponding IDs to the DefaultPawnClass map variable located in Content/SampleGame/Blueprints > BP_PlayerController.
 
